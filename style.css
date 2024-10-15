@@ -50,7 +50,7 @@ body{
 
 .dg-clock{
     position: absolute;
-    width: 30%;
+    width: 40%;
     height: 10%;
     background-color: #000;
     bottom: 26%;
@@ -66,12 +66,15 @@ body{
 
 .dh{
     color: rgb(72, 196, 218);
+    filter: drop-shadow(1px 2px 2px rgba(72, 196, 218,0.8));
 }
 .dm{
     color: rgb(72, 218, 164);
+    filter: drop-shadow( 1px 2px 2px rgba(72, 218, 164,0.8));
 }
 .ds{
     color: rgb(218, 72, 121);
+    filter: drop-shadow(1px 2px 2px rgba(218, 72, 121));
 }
 
 .hour-hand,.min-hand,.sec-hand{
@@ -101,4 +104,5 @@ body{
     height: 40%;
     top: 10.5%;
     background-color: rgb(218, 72, 121);
+    box-shadow: 1px 2px 10px rgb(72, 218, 164,0.8),-1px -2px 10px rgb(218, 72, 121,0.8);
 }
